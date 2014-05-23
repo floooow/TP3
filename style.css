@@ -6,7 +6,7 @@
 
 #header
 {
-	background: #ccc;
+	background: #FECB40;
 	padding: 20px;
 }
 
@@ -29,6 +29,7 @@
 {
 	list-style-type: none;
 	display: inline;
+
 }
 
 #navigation li a
@@ -36,9 +37,13 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
+	color: #4046FE;
 	text-decoration: none;
 	border-right: 1px solid #fff;
+	color:black;
+background-color:white;
+
+background-image:url(/export/src/florian.lejal/Documents/20110627151349_2000_1600_copy.jpg);
 }
 
 #navigation li a:hover { background: #383; }
@@ -50,11 +55,9 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	-webkit-box-shadow: 0px 0px 6px #09A590;
+	box-shadow: 0px 0px 6px #0932A5;
+	background-image: url(/export/src/florian.lejal/Documents/20110627151349_2000_1600_copy.jpg);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -62,9 +65,10 @@
 
 #edito h2
 {
-	color: #000;
+	color: #B7CAFD;
 	font-size: 160%;
 	margin: 0 0 .5em;
+	
 }
 
 #news
@@ -77,18 +81,21 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+background-image:url(/export/src/florian.lejal/Documents/swag.gif);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+}
+body {
+color:black;
+background-color:orange;
+background-image:url(/export/src/florian.lejal/Documents/20110627151349_2000_1600_copy.jpg);
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #fff;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
