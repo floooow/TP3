@@ -1,13 +1,31 @@
+body
+{
+	padding: 0;
+	margin: 0 ;
+	background-image: url('ronds.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover ;
+	background-position:center; 
+}
 #container
 {
-	margin: 0 30px;
-	background: #fff;
+	padding: 0;
+	margin: 0 ;
+#	background: #fff;
+	font-family: sans-serif;
 }
 
 #header
 {
-	background: #ccc;
+	margin: 0;
 	padding: 20px;
+	background: #ccc;
+	height:50px;
+	background-image: url('haut.jpg');
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-position:center; 
 }
 
 #header h1 { margin: 0; }
@@ -16,7 +34,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #4682B4;
+	background: #333;
 }
 
 #navigation ul
@@ -45,21 +63,18 @@
 
 #edito
 {
-	clear: left;
-	padding: 20px;
-	margin: 20px;
-	font-size: medium;
-	font-weight : bold;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: url(minions-film.jpg);
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	opacity: 0.83;
+	height: 400px;
+	float: left;
+	padding: 0%;
+	margin: 1%;
+	width: 64%;
+	background-color: #f4fcff;
+	border: 1px solid #999999;
+	-webkit-border-radius: 25px 0px 25px 0px;
+	border-radius: 25px 0px;
+	-webkit-box-shadow: 5px 3px 3px #0a182e;
+	box-shadow: 5px 3px 3px #0a182e;
+	opacity: 0.8;
 }
 
 #edito h2
@@ -69,29 +84,60 @@
 	margin: 0 0 .5em;
 }
 
-#news
-{	
+div.element
+{
 	float: left;
+	width: 31%;
+	min-width: 400px;
+	height: 400px;
+	overflow-y: scroll;
+	margin: 1%;
+	padding: 0%;
+	background-color: #f4fcff;
+	border: 1px solid #999999;
+	-webkit-border-radius: 25px 0px 25px 0px;
+	border-radius: 25px 0px;
+	-webkit-box-shadow: 5px 3px 3px #0a182e;
+	box-shadow: 5px 3px 3px #0a182e;
+	opacity: 0.8;
+}
+
+div.element img
+{
+	background-color : #fff;
+	float: right;
 	width: 40%;
-	padding: 20px;
+	margin: 5%;
+	border: 1px solid #000;
+	padding: 5px 5px 20px 5px;
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-moz-transform:rotate(7deg); /* Firefox */
+	-webkit-transform:rotate(7deg); /* Safari and Chrome */
+	-o-transform:rotate(7deg); /* Opera */
+}
+
+p
+{
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	opacity: 0.83;
+	text-align: justify;
+}
+
+h2,h3
+{
+	text-align: center;
 }
 
 #footer
 {
 	clear: both;
 	background: #ccc;
-	text-align: right;
+	text-align: left;
+	font-weight: bold;
 	padding: 20px;
 	height: 1%;
+	background-image: url('bas.jpg');
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-position:center; 
 }
